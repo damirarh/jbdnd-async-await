@@ -1,0 +1,13 @@
+﻿<Window x:Class="Demo1_SyncVsAsync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="130" Width="180">
+    <StackPanel Margin="5">
+        <Button Click="OnSync" Margin="5">Sync</Button>
+        <Button Click="OnAsync" Margin="5">Async</Button>
+        <TextBlock TextAlignment="Center" Margin="5" x:Name="StatusText" />
+    </StackPanel>
+</Window>
